@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.documentation_url  = "https://github.com/qja0707/TnkRwdSdk2"
   spec.license            = { :type => "MIT" }
   spec.author             = { "Tnk" => "Tnk" }
-  spec.source             = { :git => 'https://github.com/qja0707/TnkRwdSdk2', :tag => "#{spec.version}" }
+  spec.source             = { :git => 'git@github.com:qja0707/TnkRwdSdk2.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
 
   # Supported deployment targets
