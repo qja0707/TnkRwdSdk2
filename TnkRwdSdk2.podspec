@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name               = "Qja0707Tnk"
+  spec.name               = "TnkRwdSdk2"
   spec.version            = "1.0.0"
   spec.summary            = "Tnk Test Library for iOS apps"
   spec.description        = "Tnk Test"
@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = "10.0"
 
   # Published binaries
-  vendored_frameworks = "TnkRwdSdk2.xcframework"
+  spec.vendored_frameworks = "TnkRwdSdk2.xcframework"
 end
